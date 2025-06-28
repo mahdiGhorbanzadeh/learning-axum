@@ -1,0 +1,88 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "learning_axum",
+    "collectionId": "aa809848-1ee1-4d45-b558-3e14b71c61aa",
+    "dateExported": "2025-06-28T13:18:19.778Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a3250dd9-6fbd-485f-8dcc-9a708682d5de",
+            "colId": "aa809848-1ee1-4d45-b558-3e14b71c61aa",
+            "containerId": "",
+            "name": "mirror_json",
+            "url": "localhost:3000/mirror_route_json",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-06-25T05:42:09.817Z",
+            "modified": "2025-06-25T07:24:33.022Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"message\":\"test server\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "81a09f57-5eab-4131-819f-b8ce8c173722",
+            "colId": "aa809848-1ee1-4d45-b558-3e14b71c61aa",
+            "containerId": "",
+            "name": "path_varible",
+            "url": "localhost:3000/path_varibles/25",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-06-25T08:53:35.843Z",
+            "modified": "2025-06-25T08:53:53.950Z",
+            "headers": []
+        },
+        {
+            "_id": "aa5d6c2c-18a8-4ce2-9fab-f02fb3a80f88",
+            "colId": "aa809848-1ee1-4d45-b558-3e14b71c61aa",
+            "containerId": "",
+            "name": "query_params",
+            "url": "localhost:3000/query_params?message=hi my friend&id=10",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-06-25T10:22:36.661Z",
+            "modified": "2025-06-25T10:30:47.878Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "message",
+                    "value": "hi my friend",
+                    "isPath": false
+                },
+                {
+                    "name": "id",
+                    "value": "10",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "523f3cfd-28bb-41e5-b6af-3638d6475dfe",
+            "colId": "aa809848-1ee1-4d45-b558-3e14b71c61aa",
+            "containerId": "",
+            "name": "headers",
+            "url": "localhost:3000/header",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-06-26T11:10:17.841Z",
+            "modified": "2025-06-26T11:11:18.397Z",
+            "headers": []
+        },
+        {
+            "_id": "47cc9e9d-41e6-4e88-b2dd-fba150c96c98",
+            "colId": "aa809848-1ee1-4d45-b558-3e14b71c61aa",
+            "containerId": "",
+            "name": "shared_data",
+            "url": "localhost:3000/shared_data",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-06-28T12:15:03.940Z",
+            "modified": "2025-06-28T12:15:20.412Z",
+            "headers": []
+        }
+    ],
+    "ref": "zjSupyFpOgp_mhyeCCJBDDEPp6SNAoMk3TQBujnRQjGHsyJ6sDB2FDhy-k-1NuaZPVTmF6BUdOiFRTsfWgiQww"
+}
